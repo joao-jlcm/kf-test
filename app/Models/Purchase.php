@@ -23,4 +23,9 @@ class Purchase extends Model
     {
         return $this->hasOne(Transaction::class)->ofType('refund');
     }
+
+    public function buyer()
+    {
+        return $this->hasOne(Buyer::class)
+    }
 }
