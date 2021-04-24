@@ -12,7 +12,7 @@ class CoopCancellation extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'coop:cancellation';
 
     /**
      * The console command description.
